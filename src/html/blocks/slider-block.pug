@@ -1,0 +1,28 @@
+.container 
+    .slider-bar 
+        .slider-bar__info
+            .slider-bar__title 
+                span офисная мебель
+            .slider-bar__subtitle
+                span Новый каталог 2018-2019
+            .slider-bar__btn-wrapper
+                button Подробнее о каталоге
+            .slider-dots(onclick='autoSlideStop()')
+                .slider-dots_item(onclick='currentSlide(1)')
+                .slider-dots_item(onclick='currentSlide(2)')
+                .slider-dots_item(onclick='currentSlide(3)')
+                .slider-dots_item(onclick='currentSlide(4)')
+                .slider-dots_item(onclick='currentSlide(5)')
+        .slider 
+            .item 
+                img(src="../../assets/images/main-slider/chair-slide.png", alt="1")
+            .item 
+                img(src="../../assets/images/main-slider/chair-slide.png", alt="2")
+            .item 
+                img(src="../../assets/images/main-slider/chair-slide.png", alt="3")
+            .item 
+                img(src="../../assets/images/main-slider/chair-slide.png", alt="4")
+            .item 
+                img(src="../../assets/images/main-slider/chair-slide.png", alt="5")
+script(type='text/javascript').
+    autoSlide()

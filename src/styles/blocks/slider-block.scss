@@ -1,0 +1,97 @@
+.slider-bar {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url("../../assets/images/main-slider/Riter.png");
+    &__info {
+        margin-top: 75px;
+    }
+    &__title span {
+        font-family: Gotham Pro;
+        font-size: 60px;
+        line-height: 69px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    &__subtitle {
+        margin-top: 5px;
+        & span {
+            font-family: Georgia;
+            font-size: 21px;
+            font-style: italic;
+            font-weight: 400;
+            line-height: 26px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+    &__btn-wrapper {
+        margin-top: 50px;
+        button {
+            background: $btn-background;
+            color: $white;
+            text-transform: uppercase;
+            box-shadow: 0px 5px 12px rgba(71, 120, 239, 0.6);
+            border-radius: 4px;
+            border: none;
+            padding: 18px 20px;
+            font-family: Gotham Pro;
+            font-size: 13px;
+            line-height: 15px;
+            letter-spacing: 0em;
+            text-align: center;
+        }
+    }
+}
+
+.slider-dots {
+    margin-top: 180px;
+    text-align: left;
+}
+
+.slider-dots_item {
+    cursor: pointer;
+    height: 6px;
+    width: 10px;
+    margin: 0 2px;
+    background-color: #D7E4F4;
+    border-radius: 10%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.slider-dots_item:hover {
+    background-color: #2D54FB;
+    width: 44px;
+}
+
+
+/* Анимация слайдов */
+
+.slider .item {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
