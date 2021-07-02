@@ -1,0 +1,12 @@
+.icon-item {
+    position: relative;
+    ///margin: auto;
+    & svg {
+        display: block;
+        margin: auto;
+    }
+}
+
+.icon-item:hover svg path {
+    fill: violet;
+}

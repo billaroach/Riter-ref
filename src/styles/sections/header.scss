@@ -1,0 +1,88 @@
+.topbar {
+    background: $black;
+    .menu-wrapper {
+        display: flex;
+        padding: 10px 0 10px 0;
+        .main-menu {
+            margin-right: auto;
+        }
+    }
+    .topbar-item {
+        display: inline-flex;
+        margin-right: 35px;
+        & span {
+            color: $white;
+            font-family: 'Gotham Pro', sans-serif;
+            font-size: 10px;
+            line-height: 11px;
+            letter-spacing: 0.15em;
+        }
+    }
+    .menu {
+        display: flex;
+        align-items: center;
+        .menu-item {
+            margin-right: 15px;
+        }
+        .menu-button {
+            margin-top: 7px;
+            & div {
+                margin-bottom: 8px;
+                width: 27px;
+                height: 2px;
+                background-color: $white;
+            }
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.midbar {
+    .midbar-wrapper {
+        display: flex;
+        ///margin: 52px 0;
+        .midbar-uppertext {
+            display: block;
+            font-family: 'Gotham Pro', sans-serif;
+            font-size: 10px;
+            line-height: 10px;
+            letter-spacing: 0em;
+            text-align: left;
+            opacity: 0.5;
+            text-transform: none;
+        }
+        .midbar-lowertext {
+            display: block;
+            font-family: 'Gotham Pro', sans-serif;
+            font-size: 15px;
+            line-height: 14px;
+            letter-spacing: 0em;
+            text-align: left;
+            font-weight: bold;
+            text-transform: none;
+        }
+        .midbar-logo-wrapper {
+            background-color: $categories-gray;
+            padding: 18px 15px;
+            margin: auto;
+        }
+    }
+}
+
+.botbar {
+    margin: 20px 0 45px 0;
+    .categories-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    .botbar-category {
+        font-family: 'Gotham Pro', sans-serif;
+        font-size: 11px;
+        line-height: 13px;
+        letter-spacing: 0.1em;
+        text-align: center;
+        font-weight: 800;
+    }
+}

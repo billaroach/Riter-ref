@@ -1,0 +1,43 @@
+$black: black;
+$white: #FFFFFF;
+$btn-background: linear-gradient(93.8deg, #807FD4 0%, #609CE2 0.01%, #2346FF 100%);
+$active-dot: #2D54FB;
+$inactive-dot: #D7E4F4;
+$categories-gray: #F3F3F3;
+$categories-lightgray: #F5F5F5;
+$spot-gray: #F9F9F9;
+.txt-black {
+    color: $black;
+}
+
+.txt-white {
+    color: $white;
+}
+
+.txt-gray {
+    opacity: 0.5;
+}
+
+.bgc-grad {
+    background-color: $btn-background;
+}
+
+.bgc-active-dot {
+    background-color: $active-dot;
+}
+
+.bgc-inactive-dot {
+    background-color: $inactive-dot;
+}
+
+.bgc-gray {
+    background-color: $categories-gray;
+}
+
+.bgc-lightgray {
+    background-color: $categories-lightgray;
+}
+
+.bgc-spot {
+    background-color: $spot-gray;
+}

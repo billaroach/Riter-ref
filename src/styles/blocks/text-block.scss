@@ -1,0 +1,9 @@
+.text-block {
+    display: block;
+    &.__upper-text {
+        display: block;
+    }
+    &.__lower-text {
+        display: block;
+    }
+}

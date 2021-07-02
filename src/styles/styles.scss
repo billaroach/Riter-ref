@@ -1,0 +1,8 @@
+@import'./global/colors.scss',
+'./global/fonts.scss'; // import global folder
+@import './elements/text-item.scss',
+'./elements/icon-item.scss'; // import elements folder
+@import './blocks/icon-block.scss',
+'./blocks/text-block.scss'; // import block folder
+@import './sections/header.scss'; // import sections folder
+@import "../../node_modules/bootstrap/scss/bootstrap.scss" // import bootstrap

@@ -1,0 +1,18 @@
+.text-item {
+    & span {
+        cursor: pointer;
+        text-transform: uppercase;
+    }
+}
+
+.ta-r {
+    text-align: right;
+}
+
+.ta-l {
+    text-align: left;
+}
+
+.ta-c {
+    text-align: center;
+}

@@ -1,0 +1,31 @@
+.icon-block {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    .icon-left {
+        margin-right: 10px;
+    }
+    .icon-right {
+        display: block;
+    }
+}
+
+.rs span {
+    text-align: right;
+}
+
+.ls span {
+    text-align: left;
+}
+
+.mr-50 {
+    margin-right: 50px;
+}
+
+.ml-50 {
+    margin-left: 50px;
+}
+
+.icon-wrapper:hover {
+    cursor: pointer;
+}
